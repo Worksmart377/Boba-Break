@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Boba Break</title>
+</head>
+<body>
+    <div class="title">
+        <h1><i>&#129483;</i>BOBA Break<i>&#129483;</i></h1>
+    </div>
+    <div class="grid" onmouseover="mouseOver()" onmouseout="mouseOut()">
+        <img id="background-gif"src="/imgs/orange.gif">
+        <div class="boba-cup"> 
+            <img id="empty-cup" src="/imgs/empty-cup-orange.png" >  
+        </div> 
+    </div>
+    <aside class="side" >
+        <span><h2 id="timer">0:00</h2></span>
+        <span><h2 id="score"></h2></span>
+        <span><h2 id="score-needed"></h2></span>
+        <span><h3 id="message"></h3></span>
+    </aside>
+    <div class="buttons">
+        <button id="New">New Game</button>
+        <button id="Pause">Pause</button>
+        
+    </div>
+</body>
+</html>

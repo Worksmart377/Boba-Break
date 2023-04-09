@@ -1,0 +1,88 @@
+* {
+    font-family: 'Rampart One', cursive;
+}
+
+body {
+    background-color: #FEE9D3;
+    opacity:initial;
+}
+
+h1 {
+    position: sticky;
+    text-align: center;
+    color:rgb(82,51,28);
+    font-size: 98px;
+    margin: auto;
+
+}
+
+
+
+.grid {
+    display: grid;
+    left: 3vmin;
+    top: 15vmin;
+    place-self: center;
+    position: absolute;
+    width: 70vmin;
+    height: 60vmin;
+    border: solid rgb(82,51,28) 3px;
+    box-shadow: 5px 7px rgb(26, 16, 9);
+    background-color: #E2E2F9;
+    visibility: visible;
+}
+
+
+#background-gif {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#boba-cup {
+    position: absolute;
+    z-index: 2;
+}
+
+#empty-cup {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    visibility: visible;
+}
+
+.side {
+    display: flex;
+    background-color: #F65E90 ;
+    border:solid rgb(82,51,28) 3px;
+    box-shadow: 5px 7px rgb(26,16,9);
+    height: 50vmin;
+    width: 25vmin;
+    margin-left: 75vmin;
+    margin-top: 8vmin;
+    justify-content: center;
+}
+
+#timer, #score {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+div.buttons {
+    margin: 8vmin  8vmin;
+
+}
+
+button {
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: #29ABE2;
+    border:solid rgb(82,51,28) 2px;
+    box-shadow: 3px 7px rgb(26,16,9);
+    padding: 8px 8px;
+    margin: 0 15vmin 5vmin 3vmin;
+
+}
+
